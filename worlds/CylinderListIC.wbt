@@ -2,8 +2,8 @@
 WorldInfo {
 }
 Viewpoint {
-  orientation -0.9107676808436038 -0.4040254081544423 -0.08523908197769235 0.5181999596562277
-  position -0.23225844288373163 1.4918498859878242 3.2745095737719088
+  orientation -0.6460620272086977 0.7559979597535852 0.10521854326783212 0.3553949710611101
+  position 1.237377652947074 1.282431790525533 2.166409991418836
 }
 TexturedBackground {
 }
@@ -26,7 +26,7 @@ DEF A1_CY1 Solid {
   ]
 }
 DEF A2_CYL2 Solid {
-  translation 0.3 0.125 0
+  translation 0.3 0.125 -0.3
   children [
     Shape {
       appearance DEF A_2 PBRAppearance {
@@ -41,7 +41,7 @@ DEF A2_CYL2 Solid {
   name "solid(1)"
 }
 DEF A3_CYL3 Solid {
-  translation 0.6 0.15 0
+  translation 0.6 0.15 -0.6
   children [
     Shape {
       appearance DEF A_3 PBRAppearance {
